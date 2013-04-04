@@ -1,0 +1,92 @@
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0px;
+  width: 100%;
+  background:  #8A8;
+}
+
+h1 a {
+  background:#eee;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  text-shadow: 5px 5px 10px #777 ;
+}
+.tweet_box {
+  width:500px;
+  height:648px;
+  float: right;
+  overflow:auto;
+  background: #EEE;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
+.tweet_box .tweet {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid;
+  box-shadow: 5px 5px 10px #777;
+  margin: 10px 3px;
+  padding: 3px;
+
+}
+.tweet_box a {
+  font-family: "Comic Sans MS", Arial;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+.tweet_box span {
+  font-family:  Arial, serif;
+}
+
+.compose {
+  background: #fff;
+  border-radius: 10px;
+  padding:8px;
+  width:320px;
+  height:250px;
+
+}
+
+.compose textarea {
+  width: 300px;
+  height: 150px;
+  margin: 5px;
+  background:silver;
+}
+
+.compose .send.button {
+  width: 35px;
+  height: 20px;
+  margin-left:5px;
+  padding:2px;
+  border-radius: 5px;
+  background: darkgreen;
+  text-align: center;
+  color: white
+}
+
+.sidebar {
+  width: 350px;
+  float: left; 
+}
+
+.container {
+  width: 900px;
+  height: 795px;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: auto;
+  margin: 0 auto;
+  background: #dae5e0;
+}

@@ -1,0 +1,34 @@
+/*
+  PRACTICE BUILDING A MACHINE
+*/
+
+// building a machine:
+var myMachine = function(stuff){
+  choptheshitoutof(stuff);
+  choptheshitoutof(stuff);
+  choptheshitoutof(stuff);
+  choptheshitoutof(stuff);
+  choptheshitoutof(stuff);
+};
+
+// building a machine:
+var myMachine = function(input){
+  // blades go here
+};
+
+....
+
+
+/*
+  PRACTICE RUNNING A MACHINE
+*/
+
+myMachine(3);
+
+myMachine(3);
+
+myMachine(4);
+
+var blender = function(fruit){
+  blend(fruit);
+}
